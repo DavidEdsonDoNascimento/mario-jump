@@ -7,4 +7,4 @@ const marioJump = () => {
   }, 500);
 }
 
-document.addEventListener("keydown", marioJump);
+document.addEventListener("keyup", marioJump);
