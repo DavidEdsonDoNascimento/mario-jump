@@ -8,3 +8,4 @@ const marioJump = () => {
 }
 
 document.addEventListener("keyup", marioJump);
+document.addEventListener("touchstart", marioJump);
