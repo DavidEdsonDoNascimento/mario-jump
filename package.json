@@ -1,0 +1,8 @@
+{
+  "name": "mario-jump",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DavidEdsonDoNascimento/mario-jump.git",
+  "author": "DavidEdsonDoNascimento <david.contato.tec@gmail.com>",
+  "license": "MIT"
+}
