@@ -38,9 +38,6 @@ const checkLoop = setInterval(() => {
       pipePosition,
     );
     clearInterval(checkLoop);
-  } else {
-
-    console.log('mario saltou: ', marioPosition);
   }
 }, 10);
 
