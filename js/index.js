@@ -31,16 +31,18 @@ const checkLoop = setInterval(() => {
 
   const marioPosition = +window.getComputedStyle(mario)
     .bottom.replace('px', '');;
-
   // game over when touching the pipe
-  if ((pipePosition > 0 && pipePosition <= 120) && marioPosition < 80) {
+  if (pipePosition > 18 && pipePosition <= 120 && marioPosition < 75) {
     gameOver(
-      marioPosition, 
+      marioPosition,
       pipePosition,
     );
     clearInterval(checkLoop);
+  } else {
+
+    console.log('mario saltou: ', marioPosition);
   }
 }, 10);
 
-document.addEventListener("keyup", marioJump);
+document.addEventListener("keydown", marioJump);
 document.addEventListener("touchstart", marioJump);

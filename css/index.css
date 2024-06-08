@@ -14,6 +14,25 @@
   background: linear-gradient(#87CEEB, #E0F6FF);
 }
 
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 150px;
+  width: 100vw;
+  bottom: 0;
+}
+
+.controls button {
+  height: 80px;
+  border-radius: 10px;
+  background-color: #FBD000;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 15px;
+}
+
 .pipe {
   position: absolute;
   bottom: 0;
@@ -60,7 +79,7 @@
     bottom: 180px;
   }
 
-  60% {
+  80% {
     bottom: 180px;
   }
 
